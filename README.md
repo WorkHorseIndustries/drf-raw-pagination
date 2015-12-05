@@ -83,7 +83,7 @@ class FooSerializer(serializers.ModelSerializer):
 
 
 api.py
-```
+```python
 from rest_framework import generics
 from rest_framework.mixins import ListModelMixin
 from .serializers import FooSerializer
