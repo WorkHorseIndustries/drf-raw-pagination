@@ -40,7 +40,7 @@ to return a paged result set.
 
 ##Example
 models.py
-```
+```python
 from djang.db import models
 from .managers import FooManager
 
